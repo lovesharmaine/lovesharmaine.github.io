@@ -38,12 +38,12 @@ p {
   font-size: 20px;
   color: #727272;
   font-weight: 300;
-  font-family: "Open Sans", Goudy Old Style, serif;
+  font-family: Goudy Old Style;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.8);
-  font-family: "Open Sans", Goudy Old Style, serif;
+  font-family: Goudy Old Style;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -99,6 +99,91 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none !important;
 }
 
+@media screen and (max-width: 992px) {
+  #fh5co-header .fh5co-navbar-brand {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+#fh5co-header .nav {
+  width: 100%;
+}
+#fh5co-header .nav li {
+  font-size: 15px;
+  display: inline-block;
+  margin-left: 50px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-header .nav li {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+#fh5co-header .nav li:first-child {
+  margin-left: 0;
+}
+#fh5co-header .nav li a {
+  font-family: "Open Sans", Arial, serif;
+  color: rgba(0, 0, 0, 0.4);
+  position: relative;
+  font-weight: 400;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  padding: 0;
+}
+#fh5co-header .nav li a:hover, #fh5co-header .nav li a:focus {
+  color: gray !important;
+  background: transparent;
+  text-decoration: none !important;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-header .nav li a {
+    padding: 10px 0;
+  }
+}
+#fh5co-header .nav li.active a {
+  color: #a980cd;
+  background: transparent;
+  position: relative;
+}
+#fh5co-header .nav li.active a:before {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  top: -20px;
+  background: #a980cd;
+  content: '';
+  left: 50%;
+  margin-left: -4px;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-header .nav li.active a:before {
+    top: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  #fh5co-header .nav li.active a {
+    color: #000;
+  }
+}
+@media screen and (max-width: 480px) {
+  #fh5co-header .nav li.active a {
+    border-bottom: 2px solid transparent;
+    color: #a980cd;
+  }
+}
+@media screen and (max-width: 992px) {
+  #fh5co-header .nav {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}
 
 #fh5co-media-section, #fh5co-intro-section, #fh5co-contact-section,
 #fh5co-product-section, .about-section {
