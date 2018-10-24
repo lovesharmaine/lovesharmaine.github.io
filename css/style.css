@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 480px) {
   #fh5co-header .nav li.active a {
     border-bottom: 2px solid transparent;
-    color: #a980cd;
+    color: #FFC0CB;
   }
 }
 @media screen and (max-width: 992px) {
@@ -549,7 +549,7 @@ ba
 .fh5co-inner .holder-section h3 {
   font-size: 20px;
   text-transform: uppercase;
-  color: #a980cd;
+  color: #FFC0CB;
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -657,7 +657,7 @@ ba
 }
 .contact-info li a {
   font-weight: 400 !important;
-  color: #a980cd;
+  color: #FFC0CB;
 }
 @media screen and (max-width: 768px) {
   .contact-info {
@@ -729,7 +729,7 @@ input[type="text"] {
   letter-spacing: 2px;
   text-transform: uppercase;
   position: relative;
-  color: #a980cd;
+  color: #FFC0CB;
 }
 
 .btn {
@@ -746,14 +746,14 @@ input[type="text"] {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #a980cd;
+  background: #FFC0CB;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #a980cd;
+  background: #FFC0CB;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
@@ -790,7 +790,7 @@ input[type="text"] {
   transition: 0.5s;
 }
 .social li a:hover, .social li a:focus {
-  color: #a980cd;
+  color: #FFC0CB;
   text-decoration: none;
 }
 .social li a i {
