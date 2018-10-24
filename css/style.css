@@ -20,14 +20,14 @@ body {
 }
 
 a {
-  color: #ffc0cb;
+  color: #FF6EC7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
   text-decoration: underline !important;
-  color: #a980cd !important;
+  color: #FF6EC7 !important;
 }
 a:focus, a:active {
   outline: none;
@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-header .nav li.active a {
-  color: #FFC0CB;
+  color: #FF6EC7;
   background: transparent;
   position: relative;
 }
@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 50%;
   border-radius: 50%;
   top: -20px;
-  background: #FFC0CB;
+  background: #FF6EC7;
   content: '';
   left: 50%;
   margin-left: -4px;
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 480px) {
   #fh5co-header .nav li.active a {
     border-bottom: 2px solid transparent;
-    color: #FFC0CB;
+    color: #FF6EC7;
   }
 }
 @media screen and (max-width: 992px) {
@@ -549,7 +549,7 @@ ba
 .fh5co-inner .holder-section h3 {
   font-size: 20px;
   text-transform: uppercase;
-  color: #FFC0CB;
+  color: #FF6EC7;
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -657,7 +657,7 @@ ba
 }
 .contact-info li a {
   font-weight: 400 !important;
-  color: #FFC0CB;
+  color: #FF6EC7;
 }
 @media screen and (max-width: 768px) {
   .contact-info {
@@ -707,18 +707,6 @@ input[type="text"] {
   color: red;
 }
 
-.fh5co-social-icons a {
-  padding: 4px 8px;
-  color: rgba(0, 0, 0, 0.7);
-}
-.fh5co-social-icons a i {
-  font-size: 34px;
-}
-.fh5co-social-icons a:hover, .fh5co-social-icons a:focus, .fh5co-social-icons a:active {
-  text-decoration: none;
-  color: #000;
-  text-decoration: none !important;
-}
 
 .heading-section {
   margin-bottom: 5em;
@@ -729,78 +717,7 @@ input[type="text"] {
   letter-spacing: 2px;
   text-transform: uppercase;
   position: relative;
-  color: #FFC0CB;
-}
-
-.btn {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.btn {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-.btn.btn-primary {
-  background: #FFC0CB;
-  color: #fff;
-  border: none !important;
-  border: 2px solid transparent !important;
-}
-.btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-  box-shadow: none;
-  background: #FFC0CB;
-}
-.btn:hover, .btn:active, .btn:focus {
-  background: #393e46 !important;
-  color: #fff;
-  outline: none !important;
-}
-.btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
-  border-color: transparent;
-}
-
-.social {
-  padding: 0;
-  margin: 0;
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  text-align: right;
-}
-.social li {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: inline-block;
-}
-.social li a {
-  font-size: 24px;
-  display: table;
-  width: 24px;
-  height: 24px;
-  margin: 0 4px;
-  color: #000;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-.social li a:hover, .social li a:focus {
-  color: #FFC0CB;
-  text-decoration: none;
-}
-.social li a i {
-  display: table-cell;
-  vertical-align: middle;
-}
-@media screen and (max-width: 992px) {
-  .social {
-    text-align: center;
-  }
+  color: #FF6EC7;
 }
 
 .js .animate-box {
