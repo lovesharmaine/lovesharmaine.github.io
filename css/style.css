@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-header .nav li.active a {
-  color: #a980cd;
+  color: #FFC0CB;
   background: transparent;
   position: relative;
 }
@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 50%;
   border-radius: 50%;
   top: -20px;
-  background: #a980cd;
+  background: #FFC0CB;
   content: '';
   left: 50%;
   margin-left: -4px;
